@@ -81,6 +81,6 @@ def restructure_articles(article: Dict[str, Any]) -> Dict[str, Any]:
 if __name__ == "__main__":
     proj_dir = Path(__file__).parents[2]
     folder = proj_dir / "data/raw/output"
-    file_out = proj_dir / "data/consolidated/ar_wiki.json"
+    file_out = proj_dir / "data/compressed/ar_wiki.json"
     folder_to_json(folder, file_out)
     print("Done!")
